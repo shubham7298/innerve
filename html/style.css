@@ -1008,11 +1008,12 @@ community area css
 
 .single-community.mid-social i {
   float: left;
-  height: 100px;
-  width: 100px;
-  line-height: 100px;
+  height: 50px;
+  width: 50px;
+  line-height: 45px;
   font-size: 30px;
 }
+
 
 .single-community.mid-social i:hover {
   font-size: 25px;
@@ -1773,4 +1774,8 @@ a.gradient-btn:hover:after{
   content: " Innerve";
   font-size: 2em;
   color: #f1f1f1;
+}
+
+.mera:hover{
+  content: "gdhsjkdj"
 }
