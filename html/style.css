@@ -60,7 +60,7 @@ css list:
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,800');
 
 body{
-	background: #062489;
+	background: #031b69;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	color: #cbe5ff;
@@ -564,7 +564,7 @@ roadmap area css
 ======================*/
 
 .roadmap-area{
-	background: #031b69;
+	background: #062489;
   overflow: hidden;
 }
 
@@ -1769,7 +1769,7 @@ a.gradient-btn:hover:after{
 ::-ms-input-placeholder{color:#fff}
 ::placeholder{color:#fff}
 
-/*===================================== end =========================*/
+/*===================================== end #062489  ==================  #031b69  =======*/
 #wert::after{
   content: " Innerve";
   font-size: 2em;
