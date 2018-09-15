@@ -26,6 +26,9 @@
     <link rel="stylesheet" href="html/style.css">
     <!-- responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <!--header area start-->
@@ -44,17 +47,12 @@
                     <div class="main-menu text-center">
                         <nav>
                             <ul id="slick-nav">
-                                <li><a class="scroll" href="#home">home</a>
-
-                               
-                                </li>
-                                <li><a class="scroll" href="#about">About</a>
-                                </li>
+                                <li><a class="scroll" href="#home">home</a></li>
+                                <li><a class="scroll" href="#about">About</a></li>
                                 <li><a class="scroll" href="#Paper">Event</a></li>
-                               
-                                <li><a class="scroll" href="#team">Team</a></li>
                                 <li><a class="scroll" href="#2k17">Innerve2k17</a></li>
-                              <!--  <li><a class="scroll" href="#faq">FAQ</a></li>  -->
+                                <li><a class="scroll" href="#faq">FAQ</a></li> 
+                                <li><a class="scroll" href="#team">Team</a></li>
                                 <li><a class="scroll" href="#contact">Contact</a></li>
 
                             
@@ -79,7 +77,7 @@
                 <div class="col-12 col-md-6 align-self-center">
                     <div class="welcome-right">
                         <div class="welcome-text">
-                             <h4> Get ready all the enthusiastic developer's </h4>
+                             <h4> Get ready all the enthusiastic developers </h4>
                             <h1> INNERVE 2K18 IS HERE<BR>Pune's biggest college hackathon </h1>
                         </div>
                         <div class="welcome-btn">
@@ -152,10 +150,9 @@
                         <h1>What is INNERVE 2k18 ? </h1>
                         <div class="space-10"></div>
                         <!--p>brings you the third edition of our biggest hackathon InNerve which has proven to be a melting pot of cool ideas, creative thinking and superb programming skills coming together.<br>"Competition create innovation and innovation creates you" with this motto InNerve 3.0 will be more exciting and engaging than ever before, with more themes, more rewards and more fun. Here's a great destination to get your hands dirty on live projects that you believe in and can work on with all your heart. </p-->
-
                         <p>Innerve 2k18 Hackathon provides you the platform to showcase your ideas and technical skills at a recognized level.
 This is the perfect opportunity to get those brilliant ideas out of your amazing minds and onto the
-computer screens. Coming again this year Innerve brings you with more interesting and challenging problem statement than ever before.
+computer screens. Coming again this year Innerve brings you with more interesting and challenging problem statements than ever before.
 So get ready for Innerve 3.0 to exhilarate you with newer ideas,more rewards and a fun packed experience.<p>
                     </div>
                     <div class="space-30"></div>
@@ -169,27 +166,28 @@ So get ready for Innerve 3.0 to exhilarate you with newer ideas,more rewards and
 
     <!--single about area start-->
 
+
+
 <div class="col-12 text-center" id="Paper">
                     <div class="heading">
                         
-                        <h1>HIGHLIGHTS</h1>
+                        <h1>THEMES</h1>
                     </div>
                     <div class="space-60"></div>
                 </div>
-
-
      
-    <div class="single-about-area wow fadeInUp">
+    <div class="single-about-area wow fadeInUp" id="Paper2">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
-                    <a href="#" class="single-about">
+                    <a href="" class="single-about">
                         <div class="single-about-img">
                             <img src="assets/img/about-icon-1.png" alt="">
                         </div>
                         <div class="single-about-text" style="height:17em">
-                            <h4>HACKATHON</h4>
-                            <p>InNerve which has proven to be a melting pot of cool ideas, creative thinking and superb programming skills coming together"Competition create innovation and innovation creates you" with this motto InNerve 3.0 will be more exciting and engaging than ever before, with more themes, more rewards and more fun.</p>
+                            <h4>SMART CITY</h4>
+                            <p>We are letting the participants to take an un-orthodox approach for fast-paced growth and submit a development plan for betterment of the cities.
+This will let the participants to understand their challenges and by engaging with experts to get insights and solutions for a smarter way of developing city.</p>
                         </div>
                     </a>
                 </div>
@@ -199,8 +197,9 @@ So get ready for Innerve 3.0 to exhilarate you with newer ideas,more rewards and
                             <img src="assets/img/about-icon-2.png" alt="">
                         </div>
                         <div class="single-about-text" style="height:17em">
-                            <h4>THEMES</h4>
-                            <p><h2>To be released soon..<pre></pre></h2></p>
+                            <h4>BLOCKCHAIN</h4>
+                            <p>       Block chain, is envisioned to revolutionize human society over the coming decades in ways yet unimagined.
+       Block chain technology provides new infrastructure to build the next innovative applications beyond crypto currencies, driving profound, positive changes across business, communities and society.</p>
                         </div>
                     </a>
                 </div>
@@ -210,9 +209,54 @@ So get ready for Innerve 3.0 to exhilarate you with newer ideas,more rewards and
                             <img src="assets/img/about-icon-3.png" alt="">
                         </div>
                         <div class="single-about-text" style="height:17em">
-                            <h4>TECH TALK</h4>
-                            <p>INNERVE brings for you the most inspiring and intellectual speakers for a motivational “Tech-Talk” on various topics of interests. We at InNerve thrive to celebrate technology and cherish creativity.
-                             We welcome you to be a part of this carnival of innovation and intelligence.</p>
+                            <h4>AI / ML</h4>
+                            <p>AI is taking roots in our everyday lives in a very subtle way. Machine’s ability to “think” like a human is the core philosophy behind Artificial Intelligence. With the help of AI. Not only it helps in increasing organizational efficiency, but it also reduces the possibility of any critical error. AI helps to detect irregular patterns like payment fraud and alert the firm about any suspicious activity. </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="space-40"></div>
+    </div>
+<!-- ====================================================================================================================== -->
+
+  <div class="single-about-area wow fadeInUp" id="theme3">
+        <div class="container">
+            <div class="row">
+           <!--     <div class="col-lg-4">
+                    <a href="#" class="single-about">
+                        <div class="single-about-img">
+                            <img src="assets/img/about-icon-1.png" alt="">
+                        </div>
+                        <div class="single-about-text" style="height:17em" >
+                            <h4>Pehli Theme</h4>
+                            <p>InNerve which has proven to be a melting pot of cool ideas, creative thinking and superb programming skills coming together"Competition create innovation and innovation creates you" with this motto InNerve 3.0 will be more exciting and engaging than ever before, with more themes, more rewards and more fun.</p>
+                        </div>
+                    </a>
+                </div>
+            -->
+            <div style="margin-left:17%;"></div>
+                <div class="col-lg-4">
+                    <a href="#" class="single-about">
+                        <div class="single-about-img">
+                            <img src="assets/img/about-icon-2.png" alt="">
+                        </div>
+                        <div class="single-about-text" style="height:17em">
+                            <h4>AUTOMATION</h4>
+                            <p>       Mission to help developers automate repetitive processes and to increase employee productivity.
+                            	A world of devices connected by internet opens up opportunities for us that were previously unthinkable.
+       Build reusable components.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="#" class="single-about">
+                        <div class="single-about-img">
+                            <img src="assets/img/about-icon-1.png" alt="">
+                        </div>
+                        <div class="single-about-text" style="height:17em">
+                            <h4>HEALTHCARE</h4>
+                            <p>Looking at Healthcare in a completely new way - focusing on earlier, pre-symptomatic disease detection and prevention, instead of late diagnosis - helping clinicians access more information and intervene sooner with targeted treatments so their patients can lead longer, fuller lives.</p>
                         </div>
                     </a>
                 </div>
@@ -220,6 +264,9 @@ So get ready for Innerve 3.0 to exhilarate you with newer ideas,more rewards and
         </div>
         <div class="space-90"></div>
     </div>
+
+
+
     <!--roadmap area start-->
     <div class="roadmap-area section-padding wow fadeInUp" >
         <div class="container">
@@ -247,7 +294,7 @@ So get ready for Innerve 3.0 to exhilarate you with newer ideas,more rewards and
                             <p>28.08.2018</p>
                             <div class="space-10"></div>
                             <h5>Recruitment of Our team</h5>
-                            <p>The managing time was formed from students of first year , second and third year</p>
+                            <p>The managing team was formed from students of first year , second and third year</p>
                         </div>
                     </div>
                 </div>
@@ -372,9 +419,6 @@ So get ready for Innerve 3.0 to exhilarate you with newer ideas,more rewards and
 <div class="carousel-item active">
                 <img class="d-block w-100" src="assets/img/slide2.jpg" alt="First slide">
               </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/slide9.JPG" alt="Second slide">
-              </div>
 <div class="carousel-item">
                 <img class="d-block w-100" src="assets/img/slide6.JPG" alt="Third slide">
               </div>
@@ -394,6 +438,102 @@ So get ready for Innerve 3.0 to exhilarate you with newer ideas,more rewards and
       </div>
 </div>
 
+<!-- ============================================================================================================== -->
+<br>
+<div class="faq-area wow fadeInUp v2" id="faq">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+            <div class="heading">
+                
+                <div class="space-30"></div>
+                <h1>Frequently Asked Questions </h1>
+            </div>
+            <div class="space-20"></div>
+        </div>
+        </div>
+       
+        
+    </div>
+        <div class="tab-content">
+            <div class="tab-pane fade show active" id="one" role="tabpanel">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-10 offset-1">
+                            <div class="faq-collups">
+                                <div id="accordion">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5 class="mb-0">
+                                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="true">
+                                            What are the dates and registration fee for Hackathon?
+                                            </button>
+                                            </h5>
+                                        </div>
+
+                                        <div id="collapse1" class="collapse show" data-parent="#accordion">
+                                        <div class="card-body">
+                                        <p>The event will be organized on 1st, 2nd and 3rd October. There is no registration fees for the event but Rs.100 per team has to be submitted while registering  as an assurance amount which will be returned to the team on 1st October.</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5 class="mb-0">
+                                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapse2" aria-expanded="false">
+                                            Do I need to have any specific qualifications to be a participant for the Hackathon?
+                                            </button>
+                                            </h5>
+                                        </div>
+
+                                        <div id="collapse2" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                        <p>If you love to code, you are more than welcome to participate in the Hackathon.</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5 class="mb-0">
+                                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapse3" aria-expanded="false">
+                                            What are the accomodation facilities and will travel allowance be provided ?
+
+                                            </button>
+                                            </h5>
+                                        </div>
+
+                                        <div id="collapse3" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                        <p>Accommodation will be provided to all the teams coming from outside Pune. Travel reimbursement upto 3rd AC will be provided to the same (Max. upto ₹5000/- per team).</p>
+                                        </div>
+                                        </div>
+                                   </div>
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5 class="mb-0">
+                                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapse4" aria-expanded="false">
+                                            How to reach the location of hackathon?
+                                            </button>
+                                            </h5>
+                                        </div>
+
+                                        <div id="collapse4" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                        <p>The hackathon will be conducted in our college itself - Army Institute of Technology <a style="color: #000d47;" href="https://maps.google.com/?cid=1588118050142893205&hl=en&gl=us" >click to locate us </a> </p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    <div class="space-10"></div>
+</div>
+
 
 <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
     <!--team-bg-->
@@ -411,7 +551,7 @@ So get ready for Innerve 3.0 to exhilarate you with newer ideas,more rewards and
                         <div class="space-60"></div>
                     </div>
                 
-                <div class="row text-center" style="margin-left:10%">
+                <div class="row text-center" style="margin-left:15%">
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="single-team">
                             <div class="single-team-img" style="height:19em; width: 14em;margin-left: 15%;">
@@ -461,7 +601,7 @@ So get ready for Innerve 3.0 to exhilarate you with newer ideas,more rewards and
                 </div>
             </div></div>
         </div>
-      
+     </div> 
     <!--footer area start-->
     <div class="footera-area section-padding wow fadeInDown" id="contact" style="background-color: #000d47;">
         <div class="container">
@@ -473,7 +613,7 @@ So get ready for Innerve 3.0 to exhilarate you with newer ideas,more rewards and
                         </div>
                         <div class="space-20"></div>
                         <pre style="color: white;">Join us in journey of knowledge and fun...
-Come be a part of INNERVE 2k18 <br><br> email : innervehack2k18@gmail.com<br> Ph.No.: 8698617301</pre>
+Come and be part of INNERVE 2k18 <br><br> email : innerve@aitpune.edu.in<br> Ph.No.: 8698617301</pre>
 
                 </div>
 
@@ -482,10 +622,10 @@ Come be a part of INNERVE 2k18 <br><br> email : innervehack2k18@gmail.com<br> Ph
                     <div class="single-footer">
                         <h3 style="padding-left:0.3em;" >Contact Us</h3>
                         
-                                <div class="single-community mid-social">                                    
-                            <a class="google-plus" href=""><i class="fa fa-envelope"></i></a>
+                        <div class="single-community mid-social">                                    
+                            <a class="linkedin" href="https://www.linkedin.com/company/open-source-software-club/"><i class="fa fa-linkedin"></i></a>
                             <a class="facebook" href="https://www.facebook.com/innerve24hrs/"><i class="fa fa-facebook"></i></a>
-                            <a class="facebook" id="mera"  href="#"><i class="fa fa-mobile">
+                            <a class="twitter"  href="https://twitter.com/innerve24hrs"><i class="fa fa-twitter">
                             </i></a>
                         </div>
                         
@@ -497,10 +637,10 @@ Come be a part of INNERVE 2k18 <br><br> email : innervehack2k18@gmail.com<br> Ph
                         <p>We will contact you</p>
                         <div class="space-20"></div>
                         <div class="footer-form">
-                            <form action="#">
-                                <input type="email" id="e-mail" placeholder="Email Address">
-                                <input type="text" id="mobile" placeholder="Mobile No">
-                                <a href="" class="gradient-btn subscribe">GO</a>
+                           <form action="#">
+                               <input type="email" id="e-mail1" placeholder="Email Address">
+                                <input type="text" id="mobile1" placeholder="Mobile No">
+                                <button class="gradient-btn subscribe" onclick="goa()">GO </button>
                             </form>
                         </div>
                     </div>
@@ -529,10 +669,9 @@ Come be a part of INNERVE 2k18 <br><br> email : innervehack2k18@gmail.com<br> Ph
     <!-- main js-->
     <script src="assets/js/main.js"></script>
 
-<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
 <script>
-  // Initialize Firebase
-  var config = {
+    // Initialize Firebase
+    var config = {
     apiKey: "AIzaSyD7ceEo9liAOuVdp5kB00RcAjL9zJV_PGg",
     authDomain: "innerve-53a63.firebaseapp.com",
     databaseURL: "https://innerve-53a63.firebaseio.com",
@@ -540,7 +679,35 @@ Come be a part of INNERVE 2k18 <br><br> email : innervehack2k18@gmail.com<br> Ph
     storageBucket: "innerve-53a63.appspot.com",
     messagingSenderId: "1021206873733"
   };
-  firebase.initializeApp(config);
-</script>
+   
+    firebase.initializeApp(config);
+ const db = firebase.firestore();
+    
+db.settings({ timestampsInSnapshots: true }); 
+
+function goa(){
+        var m= document.getElementById("e-mail1").value;
+        var p= document.getElementById("mobile1").value;
+        
+
+   
+                            var n=100;             
+    
+            const docref=db.doc("innerve2k18/"+m)
+            docref.set({
+             email:m,
+             mobile:p
+            }).then(function(){
+              console.log("saved");
+
+            }).catch(function(error){
+              console.log("error");
+            })
+
+        }
+        
+       
+  </script>
+
   </body>
 </html>
